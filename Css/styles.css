@@ -1,0 +1,49 @@
+/*Existen cuatro tipos de selectores
+para agregar estilos en css
+
+selector de etiqueta:
+header - section - h1 ...
+Example:
+
+header {
+ background: pink;
+}
+
+selector descendente:
+Example:
+body header section div a {
+  background: pink;
+} // este selector navega entre etiquetas para llegar a la que
+quiere aplicarle el estilo en este caso la etiquera a
+
+selector de clase:
+.link {
+  background: pink;
+} // el mas popular
+
+selector de id:
+#portafolio {
+  background: pink;
+}  / se utiliza el id de la etiqueta html con un #
+*/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family:'Roboto', sans-serif;
+  font-weight: bold;
+  /* font-style: italic; */
+}
+
+h1 {
+  font-size: 50px;
+  line-height: 1.3em;
+  letter-spacing: -.2px;
+}
