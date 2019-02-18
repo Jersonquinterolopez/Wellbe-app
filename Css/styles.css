@@ -27,6 +27,9 @@ selector de id:
 }  / se utiliza el id de la etiqueta html con un #
 */
 
+/* gris claro = #626262;
+background gris = #1b2127;  */
+
 body {
   font-family: 'Open Sans', sans-serif;
 }
@@ -41,12 +44,21 @@ h6 {
   /* font-style: italic; */
 }
 
+.hero {
+  height: 500px;
+  background-image: url('../Media/images/Hero_illustration.png');
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
+
 .hero_title1 {
   font-family: 'Poppins', sans-serif;
   font-weight: lighter;
   font-size: 70px;
   line-height: 1.1em;
   letter-spacing: -.4px;
+  color: #606060;
 }
 
 .hero_title2 {
@@ -55,4 +67,18 @@ h6 {
   font-size: 50px;
   line-height: 1.1em;
   letter-spacing: -.4px;
+  color: #3f3f3f;
+}
+
+.hero_text {
+  width: 700px;
+}
+
+.header {
+  background-color: #efefef;
+}
+
+.header a {
+  color: #000;
+  text-decoration: none;
 }
