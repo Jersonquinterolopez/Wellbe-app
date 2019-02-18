@@ -31,19 +31,28 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family:'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: bold;
   /* font-style: italic; */
 }
 
-h1 {
+.hero_title1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: lighter;
+  font-size: 70px;
+  line-height: 1.1em;
+  letter-spacing: -.4px;
+}
+
+.hero_title2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: lighter;
   font-size: 50px;
-  line-height: 1.3em;
-  letter-spacing: -.2px;
+  line-height: 1.1em;
+  letter-spacing: -.4px;
 }
