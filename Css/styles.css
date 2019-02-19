@@ -46,36 +46,51 @@ h6 {
 
 .hero {
   height: 500px;
-  background-image: url('../Media/images/Hero_illustration.png');
-  background-size: 500px;
+  /* background-image: url('../Media/images/Hero_illustration.png'); */
+  /* background-size: 500px;
   background-repeat: no-repeat;
-  background-position-x: right;
+  background-position-x: right; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero_image {
+  object-fit: cover;
 }
 
 .hero_title1 {
   font-family: 'Poppins', sans-serif;
   font-weight: lighter;
-  font-size: 70px;
+  font-size: 80px;
   line-height: 1.1em;
   letter-spacing: -.4px;
   color: #606060;
 }
 
+.hero_title1_area {
+  height: 26px;
+}
+
 .hero_title2 {
   font-family: 'Poppins', sans-serif;
   font-weight: lighter;
-  font-size: 50px;
+  font-size: 60px;
   line-height: 1.1em;
   letter-spacing: -.4px;
   color: #3f3f3f;
 }
 
-.hero_text {
+.hero_button_title {
+  color: #3f3f3f;
+}
+
+.hero_text_area {
   width: 700px;
 }
 
 .header {
-  background-color: #efefef;
+  border-bottom: 1px solid #d8d8d8;
 }
 
 .header a {
