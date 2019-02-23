@@ -45,24 +45,27 @@ h6 {
 }
 
 .hero {
-  height: 500px;
+  height: 600px;
   /* background-image: url('../Media/images/Hero_illustration.png'); */
   /* background-size: 500px;
   background-repeat: no-repeat;
   background-position-x: right; */
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
+  /* margin-left: 150px; */
 }
 
 .hero_image {
-  object-fit: cover;
+  /* object-fit: cover; */
+  /* margin-left: 70px; */
+  margin: 0;
 }
 
 .hero_title1 {
   font-family: 'Poppins', sans-serif;
   font-weight: lighter;
-  font-size: 80px;
+  font-size: 70px;
   line-height: 1.1em;
   letter-spacing: -.4px;
   color: #606060;
@@ -75,7 +78,7 @@ h6 {
 .hero_title2 {
   font-family: 'Poppins', sans-serif;
   font-weight: lighter;
-  font-size: 60px;
+  font-size: 50px;
   line-height: 1.1em;
   letter-spacing: -.4px;
   color: #3f3f3f;
@@ -86,14 +89,63 @@ h6 {
 }
 
 .hero_text_area {
-  width: 700px;
+  width: 600px;
+  /* margin-right: 40px; */
+  margin: 0;
 }
 
 .header {
   border-bottom: 1px solid #d8d8d8;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  height: 90px;
+}
+
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+figure {
+  margin: 0;
+}
+
+.menu {
+  height: inherit;
+}
+
+.header ol {
+  display: flex;
+  height: inherit;
+}
+
+.header ol ul {
+  height: inherit;
 }
 
 .header a {
-  color: #000;
+  color: #7a7a7a;
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  height: inherit;
+  padding: 0 10px;
+}
+
+.features_content {
+  /* margin: 50px 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; */
+}
+
+.feature_title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 65px;
+  line-height: 1.1em;
+  letter-spacing: -.4px;
+  color: #3f3f3f;
 }
