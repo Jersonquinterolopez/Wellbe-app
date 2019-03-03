@@ -2,51 +2,129 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Cities</title>
-    <link rel="icon" type="image/png" sizes="32x32" href="Media/images/favicon-32x32.png">
+    <title>Wellbe</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="../Media/images/favicon-32x32.png">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Mina:400,700|Open+Sans:300,400,600,700|Roboto:400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,300i,400,400i,500,600,600i,700,800" rel="stylesheet">
+    <link rel="stylesheet" href="../Css/styles.css">
   </head>
   <body>
-    <header>
-      <div>
-        <figure>
-          <img src="Media/images/Logo_head.png" width="130" alt="Logo de http://wellbe.com" />
+      <header class="header">
+        <div class="container">
+          <figure class="logo">
+            <img src="../Media/images/Logo_head.png" width="100" alt="Logo de http://wellbe.com" />
+          </figure>
+          <nav class="menu">
+            <ol>
+              <ul>
+                <a class="link" href="../Gogetter/index.html" target="_blank">Gogetter</a>
+              </ul>
+              <ul>
+                <a class="link" href="index.html">Cities</a>
+              </ul>
+              <ul>
+                <a class="link" href="../Our solution/index.html">Our Solution</a>
+              </ul>
+              <ul>
+                <a class="link" href="../Contact/index.html">Contact</a>
+              </ul>
+              <ul>
+                <a class="link" href="../Help/index.html">Help</a>
+              </ul>
+            </ol>
+          </nav>
+        </div>
+      </header>
+      <section class="city_section">
+        <div class="container">
+          <h6 class="seattle_check_title">*Check coverage of Seattle areas in the app</h6>
+          <h1 class="seattle_title"><img class="map_icon_seatlle" src="../Media/images/map_icon.svg" width="46px" alt="">Seattle  WA</h1>
+          <h3 class="our_city_title">Our First City:</h3>
+        </div>
+      </section>
+    <section class="map_section">
+      <div class="container">
+        <h1 class="cities_title">Cities:</h1>
+        <figure class="map_image_container">
+          <img src="../Media/images/map.png" width="900px" alt="">
         </figure>
-        <nav>
-          <ol>
-            <li>
-              <a href="./Gogetter/index.html" target="_blank">Gogetter</a>
-            </li>
-            <li>
-              <a href="./Cities/index.html">Cities</a>
-            </li>
-            <li>
-              <a href="./Our solution/index.html">Our Solution</a>
-            </li>
-            <li>
-              <a href="./Contact/index.html">Contact</a>
-            </li>
-            <li>
-              <a href="./Help/index.html">Help</a>
-            </li>
-          </ol>
-        </nav>
-      </div>
-    </header>
-    <section>
-      <div class="">
-        <h3>Our First City</h3>
-        <img src="" alt=""> City picture
-        <h1>Seattle WA</h1>
-        <h5>We are here to grow, soon we will be in your city</h5>
-        <h4>Write the name of your city, i promise that we will be there soon</h4>
-        <input type="text" name="" placeholder="Your city">
-        <input type="button" name="" value="Send">
       </div>
     </section>
-    <footer>
-      <div class="">
-       footer
+    <section class="wearehere_section">
+      <div class="container">
+        <div class="we_are_here_textarea">
+          <h2 class="grow_title1">We are here</h2>
+          <h1 class="grow_title2">To Grow</h1>
+          <h3 class="grow_title3">Soon we will be</h3>
+          <h1 class="grow_title4">In your city</h1>
+        </div>
+        <form class="form_write_yourCity" action="/info/" >
+          <h3 class="box-title">Write the name of your city:</h3>
+          <input type="text" placeholder="Write your city" id="city" class="city_box"/>
+          <input type="submit" value="Send" class="city_button"/>
+          <h5 class="we_promise_text">We promise that we will be there soon!!</h5>
+        </form>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="menu1">
+          <nav class="footer_menu1">
+            <ol>
+              <ul>
+                <a href="#">About us</a>
+              </ul>
+              <ul>
+                <a href="#">Contact</a>
+              </ul>
+              <ul>
+                <a href="#">Help</a>
+              </ul>
+              <ul>
+                <a href="#">Cities</a>
+              </ul>
+              <ul>
+                <a href="#">Be a Gogetter</a>
+              </ul>
+            </ol>
+          </nav>
+
+        </div>
+        <div class="menu2">
+          <nav class="footer_menu2">
+            <ol>
+              <ul>
+                <a href="#">Follow us</a>
+              </ul>
+              <ul>
+                <a href="#">Phone number</a>
+              </ul>
+              <ul>
+                <a href="#">Promotional code</a>
+              </ul>
+              <ul>
+                <a href="#">Why Wellbe?</a>
+              </ul>
+            </ol>
+          </nav>
+          <div class="social">
+              <a href="https://twitter.com/wellbehealth" class="social-link twitter"></a>
+              <a href="https://www.facebook.com/YersonSolorsanoLopez" class="social-link facebook"></a>
+              <a href="" class="social-link github"></a>
+              <a href="" class="social-link instagram"></a>
+            </div>
+        </div>
+        <div class="logo_slogan">
+          <img class="logo_wellbe" width="170px" src="../Media/images/Logo_transparent.png" alt=""/>
+          <h5 class="slogan">We do it better and different</h5>
+        </div>
       </div>
     </footer>
+    <section class="copyrights">
+      <div class="container">
+        <div class="">
+          <p>© Wellbe, Inc. 2019 <a href="#">Privacy  Terms</a><br/> 01-499 Columbia St Seattle, WA 98104 <br/></p>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
