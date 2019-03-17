@@ -553,6 +553,7 @@ box-shadow: 1px 9px 18px -5px rgba(41,41,41,0.63);
   height: inherit;
   flex-direction: inherit;
   flex-wrap: inherit;
+  text-decoration: inherit;
 }
 
 .map_section {
@@ -969,4 +970,48 @@ box-shadow: 1px 1px 13px -1px rgba(56,56,56,0.89);
   font-family: 'Open Sans', sans-serif;
   margin-left: 5px;
   margin: 10px;
+}
+
+.wellbe_help_logoSection {
+  height: 150px;
+  display: flex;
+  align-items: center;
+}
+
+.can_help_title {
+  color: black;
+  font-family: 'Lato', sans-serif;
+  font-weight: lighter;
+}
+
+.help_questions_section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 600px;
+}
+
+.help_questions_section h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+.help_questions_section a {
+  color: #00ADE3;
+  text-decoration: none;
+  z-index:1;
+	filter:alpha(opacity=70);
+	-moz-opacity:.70;
+	opacity:.70;
+}
+
+.help_questions_section a:hover {
+  opacity: 100;
+}
+
+.div2 {
+  display: flex;
+  justify-content: space-between;
+  width: 850px;
 }
