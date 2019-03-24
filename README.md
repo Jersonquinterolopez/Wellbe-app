@@ -1,2 +1,2 @@
 # Wellbe-website
-we do ir better and different
+we do it better and different
