@@ -171,8 +171,8 @@ box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.16);
   align-items: center;
   height: inherit;
   padding: 0 10px;
-  font-family: 'SF Pro Display', sans-serif;
-  letter-spacing: .1px;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: .2px;
   font-size: 15px;
   opacity: 100;
 }
@@ -524,7 +524,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#639ebc', end
   -webkit-box-shadow: 1px 9px 18px -5px rgba(41,41,41,0.63);
 -moz-box-shadow: 1px 9px 18px -5px rgba(41,41,41,0.63);
 box-shadow: 1px 9px 18px -5px rgba(41,41,41,0.63);
-  font-family: 'SF Pro Display', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
     font-size: 12.5px;
 }
@@ -602,7 +602,7 @@ box-shadow: 1px 9px 18px -5px rgba(41,41,41,0.63);
 .slogan {
   margin-top: 10px;
   margin-bottom: 30px;
-  font-family: 'SF Pro Display', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: lighter;
   font-size: 13px;
 }
